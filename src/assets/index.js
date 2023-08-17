@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import josiahLogo from '../../josiah-bg-logo.png';
+import josiahLogo from "../../josiah-bg-logo.png";
 import mylogo from "./mylogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -32,9 +32,29 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import reactLogo from "./react-logo.svg";
+import flutterLogo from "./flutter-logo-com.svg";
+import laravelLogo from "./laravel-logo-com.svg";
+
+import harvoxxLogo from "./harvoxxlogo.png";
+import inmotionLogo from "./inmotionlogo.png";
+import catexLogo from "./catex logo.png";
+
+import contengenie from "./content-genie.png";
+import podcastr from "./podcastr.png"
+import mailconversio from "./mailconversio.png"
 export {
+  reactLogo,
+  flutterLogo,
+  laravelLogo,
   josiahLogo,
+  inmotionLogo,
+  catexLogo,
   mylogo,
+  harvoxxLogo,
+  contengenie,
+  podcastr,
+  mailconversio,
   logo,
   backend,
   creator,

@@ -11,14 +11,25 @@ import {
 } from "@react-three/drei";
 
 const Ball = (props) => {
-  const { decal } = useTexture(props.imageURL);
+  const [decal] = useTexture([props.imageURL]);
   return (
     <Float speed={1.75} floatIntensity={1} rotationIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.5}>
         <icosahedronGeometry args={[1, 1]} />
-        <meshStandardMaterial />
+        <meshStandardMaterial
+          color='#fff'
+          polygonOffset
+          polygonOffsetFactor={-5}
+          flatshading
+        />
+        <Decal
+          map={decal}
+          position={[0, 0, 1]}
+          rotation={[2 * Math.PI, 0, 6.25]}
+          flatshading
+        />
       </mesh>
     </Float>
   );

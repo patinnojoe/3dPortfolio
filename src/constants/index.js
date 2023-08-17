@@ -23,6 +23,15 @@ import {
   jobit,
   tripguide,
   threejs,
+  reactLogo,
+  flutterLogo,
+  laravelLogo,
+  harvoxxLogo,
+  inmotionLogo,
+  catexLogo,
+  contengenie,
+  podcastr,
+  mailconversio,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +51,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React Developer",
+    icon: reactLogo,
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: laravelLogo,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Flutter Developer",
+    icon: flutterLogo,
   },
 ];
 
@@ -116,55 +121,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "FrontEnd Developer Intern",
+    company_name: "Inmotion Hub",
+    icon: inmotionLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "February 2021 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing responsive design to ensure proper display on different devices and screen sizes.",
+      "Applying consistent styling and layout to maintain a cohesive user experience.",
+      "Writing and modifying JavaScript code to add interactivity and dynamic behavior to web pages.",
+      "Testing and ensuring that web applications work correctly across different web browsers (e.g., Chrome, Firefox, Safari, Edge).",
+      "Working closely with back-end developers, designers, and other team members to implement features and resolve issues.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Flutter Developer intern",
+    company_name: "Harvoxx tech hub",
+    icon: harvoxxLogo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2021 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and Maintaining Flutter Mobile Applications.",
+      "Implementing responsive design and ensuring cross-platform compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Catex Technologies",
+    icon: catexLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "December 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implement responsive designs that work seamlessly across different devices and screen sizes.",
+      "Learn and work with AI tools such as OpenAI, ChatGPT to create problem solving softwares.",
+      "Integrate RESTful APIs and third-party services to enhance application functionality.",
+      "Assist in identifying and resolving technical issues and challenges as they arise.",
+      "Conduct thorough testing, debugging, and troubleshooting of web applications.",
     ],
   },
 ];
@@ -198,67 +192,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Content Genie",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Content Genie is an advanced, comprehensive AI-powered content management platform designed to enhance your social media marketing strategies and campaigns.",
     tags: [
       {
-        name: "react",
+        name: "Laravel,",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Bootsrap",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: contengenie,
+    source_code_link: "https://app.contentgenie.ai/login",
   },
   {
-    name: "Job IT",
+    name: "Podcastr",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Podcastr is an innovative podcast management software empowered by AI, dedicated to streamlining your podcasting experience while expanding your audience's reach.",
     tags: [
       {
-        name: "react",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Boostrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: podcastr,
+    source_code_link: "#",
   },
   {
-    name: "Trip Guide",
+    name: "Mailconversio AI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Mailconversio is a cutting-edge email marketing solution meticulously crafted to triple your email open rates, engage your audience, and significantly amplify your conversion numbers.",
     tags: [
       {
-        name: "nextjs",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Boostrap",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: mailconversio,
+    source_code_link: "https://app.mailconversio.io/",
   },
 ];
 
