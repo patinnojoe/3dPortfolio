@@ -32,227 +32,246 @@ import {
   contengenie,
   podcastr,
   mailconversio,
-} from "../assets";
+  shopifyClone,
+} from '../assets';
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: 'about',
+    title: 'About',
   },
   {
-    id: "work",
-    title: "Work",
+    id: 'work',
+    title: 'Work',
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: 'contact',
+    title: 'Contact',
   },
 ];
 
 const services = [
   {
-    title: "React Developer",
+    title: 'React Developer',
     icon: reactLogo,
   },
   {
-    title: "Backend Developer",
+    title: 'Backend Developer',
     icon: laravelLogo,
   },
   {
-    title: "Flutter Developer",
+    title: 'Flutter Developer',
     icon: flutterLogo,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: 'HTML 5',
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: 'CSS 3',
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: 'React JS',
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: 'Redux Toolkit',
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: "MongoDB",
+    name: 'MongoDB',
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: 'Three JS',
     icon: threejs,
   },
   {
-    name: "git",
+    name: 'git',
     icon: git,
   },
   {
-    name: "figma",
+    name: 'figma',
     icon: figma,
   },
   {
-    name: "docker",
+    name: 'docker',
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "FrontEnd Developer Intern",
-    company_name: "Inmotion Hub",
+    title: 'FrontEnd Developer Intern',
+    company_name: 'Inmotion Hub',
     icon: inmotionLogo,
-    iconBg: "#E6DEDD",
-    date: "February 2021 - July 2021",
+    iconBg: '#E6DEDD',
+    date: 'February 2021 - July 2021',
     points: [
-      "Implementing responsive design to ensure proper display on different devices and screen sizes.",
-      "Applying consistent styling and layout to maintain a cohesive user experience.",
-      "Writing and modifying JavaScript code to add interactivity and dynamic behavior to web pages.",
-      "Testing and ensuring that web applications work correctly across different web browsers (e.g., Chrome, Firefox, Safari, Edge).",
-      "Working closely with back-end developers, designers, and other team members to implement features and resolve issues.",
+      'Implementing responsive design to ensure proper display on different devices and screen sizes.',
+      'Applying consistent styling and layout to maintain a cohesive user experience.',
+      'Writing and modifying JavaScript code to add interactivity and dynamic behavior to web pages.',
+      'Testing and ensuring that web applications work correctly across different web browsers (e.g., Chrome, Firefox, Safari, Edge).',
+      'Working closely with back-end developers, designers, and other team members to implement features and resolve issues.',
     ],
   },
   {
-    title: "Flutter Developer intern",
-    company_name: "Harvoxx tech hub",
+    title: 'Flutter Developer intern',
+    company_name: 'Harvoxx tech hub',
     icon: harvoxxLogo,
-    iconBg: "#383E56",
-    date: "September 2021 - April 2022",
+    iconBg: '#383E56',
+    date: 'September 2021 - April 2022',
     points: [
-      "Developing and Maintaining Flutter Mobile Applications.",
-      "Implementing responsive design and ensuring cross-platform compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Developing and Maintaining Flutter Mobile Applications.',
+      'Implementing responsive design and ensuring cross-platform compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
 
   {
-    title: "Full stack Developer",
-    company_name: "Catex Technologies",
+    title: 'Full stack Developer',
+    company_name: 'Catex Technologies',
     icon: catexLogo,
-    iconBg: "#E6DEDD",
-    date: "December 2022 - Present",
+    iconBg: '#E6DEDD',
+    date: 'December 2022 - Present',
     points: [
-      "Implement responsive designs that work seamlessly across different devices and screen sizes.",
-      "Learn and work with AI tools such as OpenAI, ChatGPT to create problem solving softwares.",
-      "Integrate RESTful APIs and third-party services to enhance application functionality.",
-      "Assist in identifying and resolving technical issues and challenges as they arise.",
-      "Conduct thorough testing, debugging, and troubleshooting of web applications.",
+      'Implement responsive designs that work seamlessly across different devices and screen sizes.',
+      'Learn and work with AI tools such as OpenAI, ChatGPT to create problem solving softwares.',
+      'Integrate RESTful APIs and third-party services to enhance application functionality.',
+      'Assist in identifying and resolving technical issues and challenges as they arise.',
+      'Conduct thorough testing, debugging, and troubleshooting of web applications.',
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: 'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+    name: 'Sara Lee',
+    designation: 'CFO',
+    company: 'Acme Co',
+    image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: 'Chris Brown',
+    designation: 'COO',
+    company: 'DEF Corp',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: 'Lisa Wang',
+    designation: 'CTO',
+    company: '456 Enterprises',
+    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
 const projects = [
   {
-    name: "Content Genie",
+    name: 'Shoppify Clone',
     description:
-      "Content Genie is an advanced, comprehensive AI-powered content management platform designed to enhance your social media marketing strategies and campaigns.",
+      'This is a practice project, built with React to clone the Shopify e-commerce platform. In building thisproject I worked with Axios API, React Hooks, React DOM, Re-chart and other libraries.',
     tags: [
       {
-        name: "Laravel,",
-        color: "blue-text-gradient",
+        name: 'React,',
+        color: 'blue-text-gradient',
       },
       {
-        name: "Bootsrap",
-        color: "green-text-gradient",
+        name: 'Boostrap',
+        color: 'green-text-gradient',
       },
       {
-        name: "Javascript",
-        color: "pink-text-gradient",
+        name: 'Javascript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: shopifyClone,
+    source_code_link: 'https://shopify-clone-lime.vercel.app/',
+  },
+  {
+    name: 'Content Genie',
+    description:
+      'Content Genie is an advanced, comprehensive AI-powered content management platform designed to enhance your social media marketing strategies and campaigns.',
+    tags: [
+      {
+        name: 'Laravel,',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Bootsrap',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Javascript',
+        color: 'pink-text-gradient',
       },
     ],
     image: contengenie,
-    source_code_link: "https://app.contentgenie.ai/login",
+    source_code_link: 'https://app.contentgenie.ai/login',
   },
   {
-    name: "Podcastr",
+    name: 'Podcastr',
     description:
       "Podcastr is an innovative podcast management software empowered by AI, dedicated to streamlining your podcasting experience while expanding your audience's reach.",
     tags: [
       {
-        name: "Laravel",
-        color: "blue-text-gradient",
+        name: 'Laravel',
+        color: 'blue-text-gradient',
       },
       {
-        name: "Javascript",
-        color: "green-text-gradient",
+        name: 'Javascript',
+        color: 'green-text-gradient',
       },
       {
-        name: "Boostrap",
-        color: "pink-text-gradient",
+        name: 'Boostrap',
+        color: 'pink-text-gradient',
       },
     ],
     image: podcastr,
-    source_code_link: "#",
+    source_code_link: '#',
   },
   {
-    name: "Mailconversio AI",
+    name: 'Mailconversio AI',
     description:
-      "Mailconversio is a cutting-edge email marketing solution meticulously crafted to triple your email open rates, engage your audience, and significantly amplify your conversion numbers.",
+      'Mailconversio is a cutting-edge email marketing solution meticulously crafted to triple your email open rates, engage your audience, and significantly amplify your conversion numbers.',
     tags: [
       {
-        name: "Laravel",
-        color: "blue-text-gradient",
+        name: 'Laravel',
+        color: 'blue-text-gradient',
       },
       {
-        name: "Nodejs",
-        color: "green-text-gradient",
+        name: 'Nodejs',
+        color: 'green-text-gradient',
       },
       {
-        name: "Boostrap",
-        color: "pink-text-gradient",
+        name: 'Boostrap',
+        color: 'pink-text-gradient',
       },
     ],
     image: mailconversio,
-    source_code_link: "https://app.mailconversio.io/",
+    source_code_link: 'https://app.mailconversio.io/',
   },
 ];
 
