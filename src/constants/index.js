@@ -33,6 +33,7 @@ import {
   podcastr,
   mailconversio,
   shopifyClone,
+  patGym,
 } from '../assets';
 
 export const navLinks = [
@@ -209,6 +210,28 @@ const projects = [
     ],
     image: shopifyClone,
     source_code_link: 'https://shopify-clone-lime.vercel.app/',
+  },
+
+  {
+    name: 'Gym Application',
+    description:
+      'This is a tutorial project, built using React Js, and Material UI Library. To achieve this application, I utilized RapidAPI and the worked with the exerciseDb API, and youtube search and download API',
+    tags: [
+      {
+        name: 'React,',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Material UI',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'RapidAPI',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: patGym,
+    source_code_link: 'https://pats-gym.netlify.app/',
   },
   {
     name: 'Content Genie',

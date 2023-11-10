@@ -44,6 +44,7 @@ import contengenie from './content-genie.png';
 import podcastr from './podcastr.png';
 import mailconversio from './mailconversio.png';
 import shopifyClone from './shopiffyClone.png';
+import patGym from './pat_gym2.png';
 export {
   shopifyClone,
   reactLogo,
@@ -85,4 +86,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  patGym,
 };
