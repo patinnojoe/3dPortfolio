@@ -1,4 +1,5 @@
 import {
+  gpt3Image,
   mobile,
   backend,
   creator,
@@ -295,6 +296,20 @@ const projects = [
     ],
     image: mailconversio,
     source_code_link: 'https://app.mailconversio.io/',
+  },
+
+  {
+    name: 'Gpt3',
+    description: 'A practice project for React development, creating a landing page for an AI platform.',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+    ],
+
+    image: gpt3Image,
+    source_code_link: 'https://gpt3-qvdldktuy-patinnojoe.vercel.app/',
   },
 ];
 

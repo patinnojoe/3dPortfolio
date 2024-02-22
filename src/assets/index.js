@@ -45,6 +45,7 @@ import podcastr from './podcastr.png';
 import mailconversio from './mailconversio.png';
 import shopifyClone from './shopiffyClone.png';
 import patGym from './pat_gym2.png';
+import gpt3Image from './gpt3.png';
 export {
   shopifyClone,
   reactLogo,
@@ -87,4 +88,5 @@ export {
   jobit,
   tripguide,
   patGym,
+  gpt3Image,
 };
