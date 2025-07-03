@@ -37,7 +37,9 @@ const ProjectCard = ({ name, index, image, source_code_link, description, tags }
           </div>
         </div>
         <div className="mt-5">
-          <h5 className="text-white font-bold text-[24px]">{name}</h5>
+          <h5 className="text-white font-bold text-[24px]">
+            {name}(ios {isIOS})
+          </h5>
           <p className="text-[14px] mt-2 text-secondary">{description}</p>
         </div>
         <div className="flex flex-wrap gap-2 mt-4">
