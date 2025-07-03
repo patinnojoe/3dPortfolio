@@ -10,9 +10,12 @@ import { textVariant, fadeIn } from '../utils/motion';
 
 // project card
 const ProjectCard = ({ name, index, image, source_code_link, description, tags }) => {
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+  const Wrapper = isIOS ? 'div' : Tilt;
+
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
-      <Tilt
+      <Wrapper
         className="bg-tertiary p-5 w-full sm:w-[360px] rounded-2xl"
         options={{
           speed: 450,
@@ -44,7 +47,7 @@ const ProjectCard = ({ name, index, image, source_code_link, description, tags }
             </p>
           ))}
         </div>
-      </Tilt>
+      </Wrapper>
     </motion.div>
   );
 };
