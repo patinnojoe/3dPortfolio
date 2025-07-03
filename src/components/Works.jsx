@@ -10,19 +10,12 @@ import { textVariant, fadeIn } from '../utils/motion';
 
 // project card
 const ProjectCard = ({ name, index, image, source_code_link, description, tags }) => {
-  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-  const Wrapper = 'div';
+  // const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+  // const Wrapper = 'div';
 
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
-      <Wrapper
-        className="bg-tertiary p-5 w-full sm:w-[360px] rounded-2xl"
-        options={{
-          speed: 450,
-          max: 45,
-          scale: 1,
-        }}
-      >
+      <div className="bg-tertiary p-5 w-full sm:w-[360px] rounded-2xl">
         <div className="relative w-full h-[280px]">
           <img src={image} alt={name} className="object-cover w-full h-full rounded-2xl" />
 
@@ -47,7 +40,7 @@ const ProjectCard = ({ name, index, image, source_code_link, description, tags }
             </p>
           ))}
         </div>
-      </Wrapper>
+      </div>
     </motion.div>
   );
 };
