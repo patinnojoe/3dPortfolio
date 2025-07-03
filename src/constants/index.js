@@ -54,7 +54,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'React Developer',
+    title: 'Frontend Developer',
     icon: reactLogo,
   },
   {
@@ -62,7 +62,7 @@ const services = [
     icon: laravelLogo,
   },
   {
-    title: 'Flutter Developer',
+    title: 'App Developer',
     icon: flutterLogo,
   },
 ];
